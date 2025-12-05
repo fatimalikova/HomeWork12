@@ -1,0 +1,4 @@
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\ConsoleApp 13\ConsoleApp13\ConsoleApp13\obj\Debug\net8.0\ConsoleApp13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\ConsoleApp 13\ConsoleApp13\ConsoleApp13\obj\Debug\net8.0\ConsoleApp13.AssemblyInfoInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\ConsoleApp 13\ConsoleApp13\ConsoleApp13\obj\Debug\net8.0\ConsoleApp13.AssemblyInfo.cs
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\ConsoleApp 13\ConsoleApp13\ConsoleApp13\obj\Debug\net8.0\ConsoleApp13.csproj.CoreCompileInputs.cache

@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\consoleapp13.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\consoleapp13.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\helpers\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\helpers\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\menu\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\menu\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\menu\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\menu\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\helpers\\menuengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\helpers\\menuengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\consoleapp 13\\consoleapp13\\consoleapp13\\services\\jsonstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D949B387-3A84-4865-A07B-637A4849C89D}|ConsoleApp13\\ConsoleApp13.csproj|solutionrelative:consoleapp13\\services\\jsonstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleApp13",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\ConsoleApp13.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp13\\ConsoleApp13.csproj",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\ConsoleApp13.csproj*",
+              "RelativeToolTip": "ConsoleApp13\\ConsoleApp13.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T19:18:04.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Program.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Program.cs",
+              "RelativeToolTip": "ConsoleApp13\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:38:30.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Validator.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Helpers\\Validator.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Helpers\\Validator.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Helpers\\Validator.cs",
+              "RelativeToolTip": "ConsoleApp13\\Helpers\\Validator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:54:48.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminMenu.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Menu\\AdminMenu.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Menu\\AdminMenu.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Menu\\AdminMenu.cs",
+              "RelativeToolTip": "ConsoleApp13\\Menu\\AdminMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T19:09:29.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Models\\User.cs",
+              "RelativeToolTip": "ConsoleApp13\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:40:10.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Services\\UserService.cs",
+              "RelativeToolTip": "ConsoleApp13\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:45:32.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Models\\Product.cs",
+              "RelativeToolTip": "ConsoleApp13\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:41:55.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserMenu.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Menu\\UserMenu.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Menu\\UserMenu.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Menu\\UserMenu.cs",
+              "RelativeToolTip": "ConsoleApp13\\Menu\\UserMenu.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvxcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:58:14.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuEngine.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Helpers\\MenuEngine.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Helpers\\MenuEngine.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Helpers\\MenuEngine.cs",
+              "RelativeToolTip": "ConsoleApp13\\Helpers\\MenuEngine.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:56:50.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Services\\ProductService.cs",
+              "RelativeToolTip": "ConsoleApp13\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:52:50.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JsonStorage.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Services\\JsonStorage.cs",
+              "RelativeDocumentMoniker": "ConsoleApp13\\Services\\JsonStorage.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Services\\JsonStorage.cs",
+              "RelativeToolTip": "ConsoleApp13\\Services\\JsonStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:43:24.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
