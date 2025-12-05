@@ -4,92 +4,93 @@ using ConsoleApp13.Models;
 using ConsoleApp13.Services;
 using PizzaApp.Menus;
 using PizzaApp.Services;
-using MyValidator = PizzaApp.Helpers.Validator;   // <-- Konflikti aradan qaldıran alias
+using System.ComponentModel.DataAnnotations;
+using Validator = ConsoleApp13.Helpers.Validator;
 
-internal class Program
+namespace ConsoleApp13
 {
-    static UserService userService = new UserService();
-    static ProductService productService = new ProductService();
-
-    private static void Main(string[] args)
+    class Program
     {
-        while (true)
+        static UserService userService = new();
+        static ProductService productService = new();
+
+        static void Main(string[] args)
         {
-            Console.WriteLine("\n1. Login\n2. Qeydiyyat");
-            Console.Write("Seç: ");
-            string choice = Console.ReadLine() ?? string.Empty;
+            while (true)
+            {
+                Console.WriteLine("\n1. Login\n2. Qeydiyyat");
+                Console.Write("Seç: ");
+                string choice = Console.ReadLine() ?? string.Empty;
 
-            if (choice == "1") Login();
-            else if (choice == "2") Register();
-            else Console.WriteLine("Yanlış seçim!");
-        }
-    }
-
-    static void Register()
-    {
-        Console.Write("Ad: ");
-        string name = Console.ReadLine() ?? string.Empty;
-
-        Console.Write("Soyad: ");
-        string surname = Console.ReadLine() ?? string.Empty;
-
-        Console.Write("Login: ");
-        string login = Console.ReadLine() ?? string.Empty;
-
-        if (!MyValidator.ValidateLogin(login))
-        {
-            Console.WriteLine("Login yanlışdır!");
-            return;
+                if (choice == "1") Login();
+                else if (choice == "2") Register();
+            }
         }
 
-        Console.Write("Parol: ");
-        string pass = Console.ReadLine() ?? string.Empty;
-
-        if (!MyValidator.ValidatePassword(pass))
+        static void Register()
         {
-            Console.WriteLine("Parol yanlışdır!");
-            return;
+            Console.Write("Ad: ");
+            string name = (Console.ReadLine() ?? string.Empty).Trim();
+
+            Console.Write("Soyad: ");
+            string surname = (Console.ReadLine() ?? string.Empty).Trim();
+
+            Console.Write("Login: ");
+            string login = (Console.ReadLine() ?? string.Empty).Trim();
+            if (Validator.ValidateLogin(login))
+            {
+                Console.Write("Parol: ");
+                string pass = (Console.ReadLine() ?? string.Empty).Trim();
+                if (Validator.ValidatePassword(pass))
+                {
+                    userService.Add(new User
+                    {
+                        Name = name,
+                        Surname = surname,
+                        Login = login,
+                        Password = pass,
+                        Role = UserRole.User
+                    });
+
+                    Console.WriteLine("Qeydiyyat tamamlandı!");
+                }
+                else
+                { Console.WriteLine("Parol yanlışdır!"); return; }
+            }
+            else
+            { Console.WriteLine("Login yanlışdır!"); return; }
         }
 
-        userService.Add(new User
+        static void Login()
         {
-            Name = name,
-            Surname = surname,
-            Login = login,
-            Password = pass,
-            Role = UserRole.User
-        });
+            Console.Write("Login: ");
+            string login = (Console.ReadLine() ?? string.Empty).Trim();
 
-        Console.WriteLine("Qeydiyyat tamamlandı!");
-    }
+            Console.Write("Parol: ");
+            string pass = (Console.ReadLine() ?? string.Empty).Trim();
 
-    static void Login()
-    {
-        Console.Write("Login: ");
-        string login = Console.ReadLine() ?? string.Empty;
+           
 
-        Console.Write("Parol: ");
-        string pass = Console.ReadLine() ?? string.Empty;
+            var user = userService.GetByLogin(login);
 
-        var user = userService.GetByLogin(login);
+            if (user == null || (user.Password?.Trim() ?? string.Empty) != pass)
+            {
+                Console.WriteLine("Yanlış məlumat.");
+                return;
+            }
 
-        if (user == null || user.Password != pass)
-        {
-            Console.WriteLine("Yanlış məlumat.");
-            return;
-        }
+            Console.WriteLine($"Xoş gəldiniz, {user.Name} {user.Surname}");
 
-        Console.WriteLine($"Xoş gəldiniz, {user.Name} {user.Surname}");
-
-        if (user.Role == UserRole.Admin)
-        {
-            AdminMenu adminMenu = new(productService, userService);
-            MenuEngine.ShowMenu(adminMenu);
-        }
-        else
-        {
-            UserMenu userMenu = new(productService, user);
-            MenuEngine.ShowMenu(userMenu);
+            if (user.Role == UserRole.Admin)
+            {
+                AdminMenu adminMenu = new(productService, userService);
+                MenuEngine.ShowMenu(adminMenu);
+            }
+            else
+            {
+                UserMenu userMenu = new(productService, user);
+                MenuEngine.ShowMenu(userMenu);
+            }
         }
     }
 }

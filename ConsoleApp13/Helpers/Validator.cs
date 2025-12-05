@@ -1,27 +1,51 @@
 ﻿using System.Linq;
 
-namespace PizzaApp.Helpers
+namespace ConsoleApp13.Helpers
 {
-    public static  class Validator
+    public static class Validator
     {
+       
         public static bool ValidateLogin(string login)
         {
-            return !string.IsNullOrWhiteSpace(login)
-                && login.Length >= 3
-                && login.Length <= 16;
+            if (string.IsNullOrWhiteSpace(login)) return false;
+
+            login = login.Trim();
+
+            const int minLength = 3;
+            const int maxLength = 50;
+            if (login.Length < minLength || login.Length > maxLength) return false;
+
+            foreach (char c in login)
+            {
+                if (char.IsLetterOrDigit(c)) continue;
+                if (c == '.' || c == '_' || c == '-') continue;
+                return false;
+            }
+
+            return true;
         }
 
-        public static bool ValidatePassword(string pass)
+        public static bool ValidatePassword(string password)
         {
-            if (string.IsNullOrWhiteSpace(pass))
-                return false;
+            if (string.IsNullOrWhiteSpace(password)) return false;
 
-            if (pass.Length < 6 || pass.Length > 16)
-                return false;
+            password = password.Trim();
 
-            return pass.Any(char.IsUpper)
-                && pass.Any(char.IsLower)
-                && pass.Any(char.IsDigit);
+            const int minLength = 6;
+            if (password.Length < minLength) return false;
+
+            bool hasLetter = false;
+            bool hasDigit = false;
+
+            foreach (char c in password)
+            {
+                if (char.IsLetter(c)) hasLetter = true;
+                else if (char.IsDigit(c)) hasDigit = true;
+
+                if (hasLetter && hasDigit) break;
+            }
+
+            return hasLetter && hasDigit;
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using ConsoleApp13.Data;
+﻿using System;
+using System.Linq;
+using ConsoleApp13.Data;
 using ConsoleApp13.Models;
 
 namespace PizzaApp.Services
@@ -18,8 +20,10 @@ namespace PizzaApp.Services
 
         public void Save() => JsonStorage.Save(_path, Users);
 
+      
         public User? GetByLogin(string login) =>
-            Users.FirstOrDefault(x => x.Login == login);
+            Users.FirstOrDefault(x =>
+                string.Equals(x.Login?.Trim(), login?.Trim(), StringComparison.OrdinalIgnoreCase));
 
         public void Add(User user)
         {
