@@ -11,11 +11,13 @@ namespace ConsoleApp13
 {
     class Program
     {
+
         static UserService userService = new();
         static ProductService productService = new();
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to PizzaApp!");
             while (true)
             {
                 Console.WriteLine("\n1. Login\n2. Qeydiyyat");

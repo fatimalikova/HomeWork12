@@ -34,9 +34,9 @@
               "Title": "Validator.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Helpers\\Validator.cs",
               "RelativeDocumentMoniker": "ConsoleApp13\\Helpers\\Validator.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Helpers\\Validator.cs*",
-              "RelativeToolTip": "ConsoleApp13\\Helpers\\Validator.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Helpers\\Validator.cs",
+              "RelativeToolTip": "ConsoleApp13\\Helpers\\Validator.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T19:35:06.325Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "ConsoleApp13\\Services\\UserService.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAIAwwBYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T19:34:23.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T19:34:23.779Z"
             },
             {
               "$type": "Document",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "ConsoleApp13\\Program.cs",
               "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\ConsoleApp 13\\ConsoleApp13\\ConsoleApp13\\Program.cs*",
               "RelativeToolTip": "ConsoleApp13\\Program.cs*",
-              "ViewState": "AgIAACsAAAAAAAAAAAAYwCwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T19:32:41.911Z",
               "EditorCaption": ""
@@ -77,8 +76,7 @@
               "RelativeToolTip": "ConsoleApp13\\Helpers\\MenuEngine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T18:56:50.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T18:56:50.014Z"
             }
           ]
         }
